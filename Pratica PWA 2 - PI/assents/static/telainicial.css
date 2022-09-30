@@ -1,0 +1,24 @@
+.background{
+    height: 100%;
+    background-image: url("/assents/img/5.jpg");
+    background-size: cover;
+    /* filter: blur(4px); */
+    transition: 5s;
+}
+
+.background .content{
+    height: 100%;
+    backdrop-filter: blur(4px);
+    transition: 5s;
+}
+
+.background .content img{
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .background {
+      background-position-x: -12em;
+    }
+  }
