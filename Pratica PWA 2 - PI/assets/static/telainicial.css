@@ -1,0 +1,65 @@
+.background{
+    height: 100%;
+    background-image: url("/assets/img/5.jpg");
+    background-size: cover;
+    transition-delay: 5s;
+}
+
+.background .content{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0px);
+    transition: backdrop-filter 6s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.background .content-show{
+    backdrop-filter: blur(4px) brightness(1);
+}
+
+.background .content .botoes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    animation: surgir 5s forwards;
+}
+
+@keyframes surgir {
+    from {
+        margin-left: 100px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+.background .content .botoes button{
+    margin: 3% 0;
+    width: 70%;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #12385D;
+    background-color: #0071a663;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.background .content .logo img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(8px 36px 10px white) brightness(0.7);
+    animation: surgir 5s forwards;
+}
+
+@media (max-width: 768px) {
+    .background {
+      background-position-x: -12em;
+      transition: 6s;
+    }
+}

@@ -1,0 +1,123 @@
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg .bg-login{
+    position: relative;
+    width: 100%;
+}
+
+.bg .logo-login{
+    width: 220px;
+    position: absolute;
+    padding-bottom: 35px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.575));
+}
+
+.entrar-content{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    border-radius: 40px;
+    top: -60px;
+}
+
+.entrar-content .forms-entrar{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrar-content .forms-entrar .titulo{
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 15% 0;
+}
+
+.entrar-content .forms-entrar .titulo h1{
+    font-weight: 800;
+    font-size: 3em;
+    color: #12385D;
+}
+
+.entrar-content .forms-entrar .titulo p{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #12385db4;
+    width: 60%;
+    margin: 10px auto 0 auto;
+}
+
+.entrar-content .forms-entrar .input-user, .input-senha{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.entrar-content .forms-entrar input{
+    background-color: #e9e9e9;
+    height: 45px;
+    width: 74%;
+    border: none;
+    border-radius: 0 20px 0 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    position: relative;
+    padding-left: 55px;
+    margin: 0 0 2em 0;
+}
+
+.input-user svg, .input-senha svg{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 11px;
+    left: 37px;
+}
+
+.input-user svg path, .input-senha svg path{
+    fill: #12385D;
+}
+
+.entrar-content .forms-entrar .entrar-botao{
+    width: 89%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 0 25px 0;
+    border: none;
+    background-color: #12385D;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.entrar-content .forms-entrar .entrar-botao svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.entrar-content .forms-entrar .botao-resg{
+    width: 60%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 25px 0 25px;
+    border: none;
+    background-color: #2d72b4;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}

@@ -30,8 +30,7 @@
       {
         "src": "/assets/img/pwa/196.png",
         "sizes": "196x196",
-        "type": "image/png",
-        "purpose": "any maskable"
+        "type": "image/png"
       },
       {
         "src": "/assets/img/pwa/512.png",
@@ -68,14 +67,14 @@
         "short_name": "Monitoramento",
         "description": "Abre avisos da tela de monitoramento",
         "url": "/2pl.html",
-        "icons": [{ "src": "/images/2pl.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/images/aviso.png", "sizes": "192x192" }]
       },
       {
         "name": "Três players",
         "short_name": "Novo ponto",
         "description": "Cadastra um novo ponto de monitoramento",
         "url": "/3pl.html",
-        "icons": [{ "src": "/images/3pl.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/assets/img/pwa/shotcuts/novo.png", "sizes": "192x192" }]
       }
     ],
     "screenshots": [
@@ -101,6 +100,11 @@
       },
       {
         "src": "/assets/img/pwa/prints/print5.png",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/assets/img/pwa/prints/print6.png",
         "type": "image/jpg",
         "sizes": "540x720"
       }
