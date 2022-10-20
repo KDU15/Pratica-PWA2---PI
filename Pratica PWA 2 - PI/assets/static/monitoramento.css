@@ -119,3 +119,9 @@ body{
 .monitoramento-content .card-alerta img{
     margin-left: 20px;
 }
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
