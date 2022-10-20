@@ -17,7 +17,7 @@
 }
 
 .background .content-show{
-    backdrop-filter: blur(4px) brightness(1);
+    backdrop-filter: blur(2px) brightness(1);
 }
 
 .background .content .botoes{
@@ -37,13 +37,21 @@
     }
 }
 
+.background .content .back-button{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
 .background .content .botoes button{
-    margin: 3% 0;
-    width: 70%;
+    margin-top: 48%;
+    width: 80%;
     height: 50px;
-    border-radius: 50px;
-    border: 2px solid #12385D;
-    background-color: #0071a663;
+    border-radius: 30px 0 30px 0;
+    background-color: #002B59;
+    border: none;
+    box-shadow: inset -7px 9px 11px rgb(0, 0, 0, 25%);
     color: #fff;
     font-size: 1.2em;
     font-family: 'Roboto';
