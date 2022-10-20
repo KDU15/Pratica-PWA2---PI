@@ -77,14 +77,14 @@
         "name": "Dois players",
         "short_name": "Monitoramento",
         "description": "Abre avisos da tela de monitoramento",
-        "url": "/2pl.html",
+        "url": "/monitoramento.html",
         "icons": [{ "src": "/images/aviso.png", "sizes": "192x192" }]
       },
       {
         "name": "Três players",
         "short_name": "Novo ponto",
         "description": "Cadastra um novo ponto de monitoramento",
-        "url": "/3pl.html",
+        "url": "/novo-ponto.html",
         "icons": [{ "src": "/assets/img/pwa/shotcuts/novo.png", "sizes": "192x192" }]
       }
     ],

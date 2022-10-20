@@ -6,7 +6,6 @@ body{
 .background-telas{
     position: absolute;
     width: 100%;
-    bottom: 0;
     z-index: -10;
 }
 
@@ -30,4 +29,93 @@ body{
     margin-left: 8px;
     color: #E8EAED;
     line-height: 0;
+}
+
+.descri-section{
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.descri-section .desc-content{
+    width: 70%;
+    height: 60px;
+    background-color: #F6F6F6;
+    position: relative;
+    border-radius: 7px 0 0 0;
+
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: .9em;
+    color: #03030381;
+    padding: 7px 0 0 7px;
+}
+.descri-section img{
+    margin-right: 5px;
+}
+
+.descri-section .desc-content::after{
+    content: '';
+    position: absolute;
+    background: linear-gradient(169deg, rgb(0 73 148) -5%, transparent 43%), linear-gradient(48deg, rgb(246 246 246) 0%,rgba(37,141,200,0) 100%);
+    top: -1.2px;
+    left: -1px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 8px 0 0 0;
+}
+
+.monitoramento-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.monitoramento-content .card-alerta{
+    width: 93%;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.monitoramento-content .card-alerta:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.monitoramento-content .card-alerta::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: black;
+    border-radius: 0 50px 50px 0;
+    width: 8px;
+    height: 70%;
+}
+
+.monitoramento-content .card-alerta-laranja::after{
+    background-color: #FFC700;
+}
+
+.monitoramento-content .card-alerta-laranja{
+    border-color: #FFC700;
+}
+
+.monitoramento-content .card-alerta-vermelho::after{
+    background-color: #ff00009d;
+}
+
+.monitoramento-content .card-alerta-vermelho{
+    border-color: #ff00009d;
+}
+
+.monitoramento-content .card-alerta img{
+    margin-left: 20px;
 }

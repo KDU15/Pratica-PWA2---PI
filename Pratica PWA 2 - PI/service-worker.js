@@ -8,9 +8,9 @@ self.addEventListener('install', event => {
     caches.open(cacheName)
       .then(cache => cache.addAll([
 
-        '/index.html',
-        '/entrar.html',
-        '/home.html'
+        '/templates/index.html',
+        '/templates/entrar.html',
+        '/templates/home.html'
 
         // '/assets/css/main.css',
 
